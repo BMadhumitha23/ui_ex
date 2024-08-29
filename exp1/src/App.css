@@ -1,0 +1,97 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #8ca4be;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 4px solid #0b0c0c;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #6786a6;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  border-top: 4px solid #141515;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 6px rgba(28, 27, 27, 0.1);
+}
+
+/* MainContent Styles */
+main {
+  padding: 20px;
+  margin-bottom: 60px; /* Space for the footer */
+}
+
+/* List Component Styles */
+.list-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.item:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-title {
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.item-image {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

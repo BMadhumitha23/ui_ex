@@ -1,0 +1,84 @@
+/* MainContent.css */
+
+/* General styling for the main content */
+.main-content {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+    background: url('https://example.com/hero-background.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Features section */
+.features-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.features-section h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.feature {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Gallery section */
+.gallery-section {
+    padding: 40px 20px;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
