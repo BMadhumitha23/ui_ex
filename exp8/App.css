@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333; /* Dark gray for the main heading */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px; /* Set a fixed width for input fields */
+}
+
+button {
+  background-color: #3498db; /* Blue for buttons */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px; /* Set a fixed width for buttons */
+  margin-top: 10px; /* Add some spacing between the button and inputs */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Student List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff; /* White background for list items */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for items */
+}
+
+li button {
+  background-color: #3498db; /* Blue for primary action */
+  border-radius: 5px;
+  padding: 4px 10px; /* Reduced padding */
+  font-size: 12px; /* Smaller font size */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Add transition for smooth effect */
+}
+
+li button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Edit Button Styling */
+.edit-button {
+  background-color: #f39c12; /* Orange for edit button */
+  margin-left: 5px; /* Reduced margin */
+}
+
+.edit-button:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
