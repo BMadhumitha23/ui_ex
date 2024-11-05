@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('https://designtemplate.tech/images/Majestic%20Thunderstorm%20Clouds%20Weather%20Background%20Video-HD.webp'); /* Background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure full viewport height */
+  padding: 20px;
+  border-radius: 10px;
+  color: white; /* Change text color to white for better visibility */
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better contrast */
+}
+
+.app-name {
+  color: #f0f8ff; /* Adjusted for contrast against the background */
+  font-size: 2.5em;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.city-search {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 200px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  color: black; /* Black text for input */
+}
+
+.weather-details {
+  margin-top: 20px;
+}
+
+.icon-temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #4a90e2; /* Keep this color as it contrasts well */
+}
+
+.extra-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for detail items */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.detail-item img {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.5em;
+}
+
+.date {
+  font-size: 1.2em;
+  color: #ddd; /* Adjusted for better visibility */
+}
+
+h3 {
+  margin-top: 20px;
+  color: #f0f8ff; /* Adjusted for contrast */
+}
+p{
+  color:#050505;
+}
