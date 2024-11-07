@@ -1,0 +1,34 @@
+.message {
+    font-size: 1.2em;
+    color: #ffcc00; /* Gold for winner message */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333; /* Dark background for message */
+    border: 1px solid #555; /* Border to match the theme */
+    border-radius: 5px;
+    opacity: 0; /* Start invisible */
+    transform: translateY(-20px); /* Start slightly above */
+    animation: fadeInUp 0.5s forwards; /* Apply animation */
+}
+
+/* Define the keyframes for the fade-in animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1; /* Fade in */
+        transform: translateY(0); /* Move to original position */
+    }
+}
+
+.win-animation {
+    animation: bounce 0.5s infinite alternate; /* Add a bounce effect */
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
